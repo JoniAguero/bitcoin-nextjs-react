@@ -1,10 +1,12 @@
-import Navegacion from "../component/navegacion";
+import Layout from "../component/Layout";
 
 const Index = () => (
-    <div>
-        <Navegacion />      
-        <p>Hola Inicio</p>
-    </div>
+    <Layout>
+        <div>   
+            <p>Hola Inicio</p>
+        </div>
+    </Layout>
+    
 )
 
 export default Index;

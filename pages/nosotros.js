@@ -1,10 +1,11 @@
-import Navegacion from "../component/navegacion";
-
+import Layout from "../component/Layout";
+ 
 const Nosotros = () => (
-    <div>
-        <Navegacion />
-        <p>Hola NOSOTROS</p>
-    </div>
+    <Layout>
+        <div>   
+            <p>Hola Nosotros</p>
+        </div>
+    </Layout>
 )
 
 export default Nosotros;
