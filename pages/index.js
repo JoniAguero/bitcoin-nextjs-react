@@ -1,4 +1,4 @@
-import Navegacion from "./navegacion";
+import Navegacion from "../component/navegacion";
 
 const Index = () => (
     <div>
