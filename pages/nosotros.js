@@ -1,9 +1,8 @@
-import Link from 'next/link';
+import Navegacion from "./navegacion";
 
 const Nosotros = () => (
     <div>
-        <li><Link href="/"><a>Inicio</a></Link></li>
-        <li><Link href="/nosotros"><a>Nosotros</a></Link></li>
+        <Navegacion />
         <p>Hola NOSOTROS</p>
     </div>
 )
